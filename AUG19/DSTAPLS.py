@@ -1,5 +1,4 @@
-t = int(input())
-for _ in range(t):
+for _ in range(int(input())):
     n,k = list(map(int,input().strip().split()))
     temp = n//k
     if temp%k==0:
